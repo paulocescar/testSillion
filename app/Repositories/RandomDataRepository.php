@@ -14,7 +14,8 @@ Class RandomDataRepository
     public function retorno($size, $type)
     {
         try{
-            $response = Http::get('https://random-data-api.com/api/v2/users?size='.$size.'&response_type='.$type);
+            $randomApiUrl = env('RANDOM_API_URL');
+            $response = Http::get($randomApiUrl.'/v2/users?size='.$size.'&response_type='.$type);
 
             return $response;
         } catch (Exception $error) {

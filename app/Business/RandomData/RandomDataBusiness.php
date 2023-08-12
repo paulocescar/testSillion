@@ -19,7 +19,13 @@ Class RandomDataBusiness
     public function retorno($size, $type)
     {
         $data = $this->randomDataServices->retorno($size, $type);
-        return $this->dataAdapter($data, $type);
+        
+        if(!$data->successful()){
+            return response()->json(['error' => 'Não foi possivel acessar a rota.'], $data->status());
+        }
+
+        $dados = $this->dataAdapter($data, $type);
+        return response()->json(["status" => $data->status(), "data" => $dados], 404);
     }
 
     public function dataAdapter($response, $type)
