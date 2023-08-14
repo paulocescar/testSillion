@@ -17,11 +17,17 @@ git clone [https://github.com/paulocescar/SillionFront.git
 Na pasta raiz do projeto alterar 
 .env.example para .env
 configurar 
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=example_app
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 adicionar a seguinte variavel de ambiente no .env
