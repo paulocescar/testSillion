@@ -23,6 +23,7 @@ RANDOM_API_URL="https://random-data-api.com/api"
 
 composer install
 
+php artisan key:generate
 
 ## Development server
 php artisan serve
