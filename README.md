@@ -19,6 +19,9 @@ Na pasta raiz do projeto alterar
 .env.example para .env
 
 adicionar a seguinte variavel de ambiente no .env
+
+(OBS: não esqueça da variável de ambiente)
+
 RANDOM_API_URL="https://random-data-api.com/api"
 
 composer install
