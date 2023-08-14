@@ -4,8 +4,11 @@ Install Laravel (https://laravel.com/docs/10.x/installation)
 
 ## Requerimentos
 Laravel (https://laravel.com/docs/10.x/installation)
+
 composer: latest version
+
 php 8.0: https://www.php.net/manual/pt_BR/install.php
+
 mysql: lastest version
 
 
