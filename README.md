@@ -14,8 +14,8 @@ Copiei o projeto pelo link:
 git clone [https://github.com/paulocescar/SillionFront.git
 ](https://github.com/paulocescar/testSillion.git)
 
-Na pasta raiz do projeto execute
-aterar .env.example para .env
+Na pasta raiz do projeto alterar 
+.env.example para .env
 
 adicionar a seguinte variavel de ambiente no .env
 RANDOM_API_URL="https://random-data-api.com/api"
