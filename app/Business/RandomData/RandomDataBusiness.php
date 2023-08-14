@@ -25,7 +25,7 @@ Class RandomDataBusiness
         }
 
         $dados = $this->dataAdapter($data, $type);
-        return response()->json(["status" => $data->status(), "data" => $dados], 404);
+        return response()->json(["status" => $data->status(), "data" => $dados], 200);
     }
 
     public function dataAdapter($response, $type)
