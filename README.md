@@ -16,7 +16,8 @@ git clone [https://github.com/paulocescar/SillionFront.git
 
 Na pasta raiz do projeto alterar 
 .env.example para .env
-configurar 
+
+configurar conexão com banco de dados mysql
 
 DB_CONNECTION=mysql
 
